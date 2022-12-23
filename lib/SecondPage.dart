@@ -15,8 +15,7 @@ class Second extends StatelessWidget {
                 borderRadius: BorderRadius.circular(18),
               ),
               child: SizedBox(
-                width: MediaQuery.of(context).size.width * 0.6,
-                height: MediaQuery.of(context).size.width *0.8,
+                height: 550,
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Column(

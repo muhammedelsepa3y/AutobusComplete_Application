@@ -10,9 +10,9 @@ class Item extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 70,
+      width: 100,
       child: Text(
-        'ID : $id\nchar : $charr',
+        'ID : $id\nchar : ${charr}',
         style: const TextStyle(fontSize: 20, color: Colors.black),
       ),
     );

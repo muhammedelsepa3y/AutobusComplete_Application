@@ -44,7 +44,7 @@ class SearchBar extends SearchDelegate<dataa> {
                 vertical: 1
             ),
             child: Container(
-              height: 25,
+              height: 40,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(5),
                 color: Colors.grey[200],
